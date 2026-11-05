@@ -1,0 +1,9 @@
+CV Scheme,Model,Mean Accuracy (%),Std Dev (%),Format Ilmiah (Mean ± Std),Mean Macro F1
+5-Fold Stratified CV,Random Forest (depth=8),86.93,1.16,86.93% ± 1.16%,0.869
+5-Fold Stratified CV,"SVM (RBF, C=10)",85.44,0.75,85.44% ± 0.75%,0.8536
+5-Fold Stratified CV,"XGBoost (lr=0.05, depth=5)",83.6,1.43,83.60% ± 1.43%,0.8357
+5-Fold Stratified CV,KNN (k=21),83.77,1.86,83.77% ± 1.86%,0.8374
+10-Fold Stratified CV,Random Forest (depth=8),86.05,2.84,86.05% ± 2.84%,0.8602
+10-Fold Stratified CV,"SVM (RBF, C=10)",84.82,1.52,84.82% ± 1.52%,0.8472
+10-Fold Stratified CV,"XGBoost (lr=0.05, depth=5)",84.56,3.09,84.56% ± 3.09%,0.8449
+10-Fold Stratified CV,KNN (k=21),83.95,2.96,83.95% ± 2.96%,0.839
